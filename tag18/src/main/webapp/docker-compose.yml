@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  tag18:
+    build: .
+    container_name: tag18
+    ports:
+      - 8080:8080
+      - 8181:8181
+      - 5666:5666
+      - 4848:4848
+    stdin_open: true
+    tty: true
